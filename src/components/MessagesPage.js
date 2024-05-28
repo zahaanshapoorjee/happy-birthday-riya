@@ -12,9 +12,9 @@ const Container = styled.div`
 `;
 
 const videos = [
+  { id: 'I6hqwQh_W10', name: 'Vanshika' },
   { id: '7KQtotiXSUk', name: 'Sanya' },
   { id: 'Q7iqAj2QxOE', name: 'Peehu' },
-  { id: 'I6hqwQh_W10', name: 'Vanshika' },
   { id: 'm0PsxPuosxA', name: 'Naisha' },
   { id: 'b5qCiIn6fcg', name: 'Khushi' },
   { id: 'GicnF6sM6lk', name: 'Soubhagya' },

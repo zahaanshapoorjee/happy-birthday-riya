@@ -17,16 +17,55 @@ import Saairah from "./Photos/Saairah Photo.jpg";
 import Soubhagya from "./Photos/Soubhagya photo.jpg";
 import Uday from "./Photos/Uday Photo.jpg";
 import Vanshika from "./Photos/Vlan Photo.jpg";
-import Gallery1 from "./Gallery/1.jpg"
-import Gallery2 from "./Gallery/2.jpg"
-import Gallery3 from "./Gallery/3.jpg"
-import Gallery4 from "./Gallery/4.jpg"
-import Gallery5 from "./Gallery/5.jpg"
-import Gallery6 from "./Gallery/6.jpg"
-import Gallery7 from "./Gallery/7.jpg"
-import Gallery8 from "./Gallery/8.jpg"
-import Gallery9 from "./Gallery/9.jpg"
-import Gallery10 from "./Gallery/10.jpg"
+import Gallery1 from "./Gallery/1.jpg";
+import Gallery2 from "./Gallery/2.jpg";
+import Gallery3 from "./Gallery/3.jpg";
+import Gallery4 from "./Gallery/4.jpg";
+import Gallery5 from "./Gallery/5.jpg";
+import Gallery6 from "./Gallery/6.jpg";
+import Gallery7 from "./Gallery/7.jpg";
+import Gallery8 from "./Gallery/8.jpg";
+import Gallery9 from "./Gallery/9.jpg";
+import Gallery10 from "./Gallery/10.jpg";
+import Gallery11 from "./Gallery/11.jpg";
+import Gallery12 from "./Gallery/12.jpg";
+import Gallery13 from "./Gallery/13.jpg";
+import Gallery14 from "./Gallery/14.jpg";
+import Gallery15 from "./Gallery/15.jpg";
+import Gallery16 from "./Gallery/16.jpg";
+import Gallery17 from "./Gallery/17.jpg";
+import Gallery18 from "./Gallery/18.jpg";
+import Gallery19 from "./Gallery/19.jpg";
+import Gallery20 from "./Gallery/20.jpg";
+import Gallery21 from "./Gallery/21.jpg";
+import Gallery22 from "./Gallery/22.jpg";
+import Gallery23 from "./Gallery/23.jpg";
+import Gallery24 from "./Gallery/24.jpg";
+import Gallery25 from "./Gallery/25.jpg";
+import Gallery26 from "./Gallery/26.jpg";
+import Gallery27 from "./Gallery/27.jpg";
+import Gallery28 from "./Gallery/28.jpg";
+import Gallery29 from "./Gallery/29.jpg";
+import Gallery30 from "./Gallery/30.jpg";
+import Gallery31 from "./Gallery/31.jpg";
+import Gallery32 from "./Gallery/32.jpg";
+import Gallery33 from "./Gallery/33.jpg";
+import Gallery34 from "./Gallery/34.jpg";
+import Gallery35 from "./Gallery/35.jpg";
+import Gallery36 from "./Gallery/36.jpg";
+import Gallery37 from "./Gallery/37.jpg";
+import Gallery38 from "./Gallery/38.jpg";
+import Gallery39 from "./Gallery/39.jpg";
+import Gallery40 from "./Gallery/40.jpg";
+import Gallery41 from "./Gallery/41.jpg";
+import Gallery42 from "./Gallery/42.jpg";
+import Gallery43 from "./Gallery/43.jpg";
+import Gallery44 from "./Gallery/44.jpg";
+import Gallery45 from "./Gallery/45.jpg";
+import Gallery46 from "./Gallery/46.jpg";
+import Gallery47 from "./Gallery/47.jpg";
+import Gallery48 from "./Gallery/48.jpg";
+import Gallery49 from "./Gallery/49.jpg";
 import MessagesPage from './components/MessagesPage';
 
 const postcards = [
@@ -54,9 +93,46 @@ const galleryImages = [
   Gallery8,
   Gallery9,
   Gallery10,
+  Gallery11,
+  Gallery12,
+  Gallery13,
+  Gallery14,
+  Gallery15,
+  Gallery16,
+  Gallery17,
+  Gallery18,
+  Gallery19,
+  Gallery20,
+  Gallery21,
+  Gallery22,
+  Gallery23,
+  Gallery24,
+  Gallery25,
+  Gallery26,
+  Gallery27,
+  Gallery28,
+  Gallery29,
+  Gallery30,
+  Gallery31,
+  Gallery32,
+  Gallery33,
+  Gallery34,
+  Gallery35,
+  Gallery36,
+  Gallery37,
+  Gallery38,
+  Gallery39,
+  Gallery40,
+  Gallery41,
+  Gallery42,
+  Gallery43,
+  Gallery44,
+  Gallery45,
+  Gallery46,
+  Gallery47,
+  Gallery48,
+  Gallery49,
 ];
-
-
 
 function App() {
   return (
@@ -66,7 +142,7 @@ function App() {
         <Routes>
           <Route path="/postcards" element={<PostcardPage postcards={postcards} />} />
           <Route path="/" element={<VideoSection />} />
-          <Route path="/messages" element={<MessagesPage/>} />
+          <Route path="/messages" element={<MessagesPage />} />
           <Route path="/gallery" element={<GalleryPage images={galleryImages} />} /> {/* Gallery route */}
         </Routes>
         <Footer />

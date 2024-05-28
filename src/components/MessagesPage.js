@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const videos = [
-  { id: 'I6hqwQh_W10', name: 'Vanshika' },
+  {id: 'DNpMIuB1dtQ', name: 'Uday'},
   { id: '7KQtotiXSUk', name: 'Sanya' },
   { id: 'Q7iqAj2QxOE', name: 'Peehu' },
   { id: 'm0PsxPuosxA', name: 'Naisha' },
@@ -23,6 +23,7 @@ const videos = [
   { id: 'ytfLxBy2CYM', name: 'Meera' },
   { id: 'L7GRgq0tglw', name: 'Devasya' },
   { id: 'z6ajGamlbqU', name: 'Akhil' },
+  { id: 'I6hqwQh_W10', name: 'Vanshika' },
 ];
 
 const MessagesPage = () => {

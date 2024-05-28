@@ -39,7 +39,7 @@ const postcards = [
   { name: 'Sanya', image: Sanya, text: 'You deserve the world and more <3 hope that we can make you feel as special as you make us feel ❤' },
   { name: 'Saairah', image: Saairah, text: 'Hello Riya!!! Happy happy birthday, you were the one person with whom my friendship was so unexpected but I’m so glad that it happened because I really found in you a friend I can always rely on. I miss you very very much — I miss hanging out with you every day and getting calls from you to hear about everything that’s going on and I miss our Taylor Swift jam sessions. You are truly such a gem to have around with your contagious laughter. Wishing you the happiest happiest 20th birthday and I hope this year brings everything you’ve ever wanted. I love you always!!!' },
   { name: 'Soubhagya', image: Soubhagya, text: 'Happy birthday Riya' },
-  { name: 'Uday', image: Uday, text: 'Happy Birthday my riri. I hope the effort and love from all of us can make you not ick about the font. Lmao who am I kidding - Love U' },
+  { name: 'Uday', image: Uday, text: "Happy birthday Riri to our movie nights, my cadi infractions, cooking dates, your anger when we study together, your love when we eat together, your affection when I don't even ask for it. It's been 2 years since I know you and 0 that we've spent to our potential. So let's make the next 20 special. Love you" },
   { name: 'Vanshika', image: Vanshika, text: 'I think this photo captures us the best' },
 ];
 
